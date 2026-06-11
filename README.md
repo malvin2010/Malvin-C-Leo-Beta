@@ -1,128 +1,46 @@
-# 🤖 Malvin C Leo — WhatsApp Multi-Device Bot
-> Powered by **Handsome Tech Zimbabwe** 🇿🇼
+# Malvin Leo
+**Bot Developer | Full Stack Developer** | Harare, ZW
+
+[[GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/malvin2010)
+[[WhatsApp Group](https://img.shields.io/badge/Join_Group-25D366?style=flat&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/D53glwu3eWFDqRpEW4vnuu?s=cl&p=a&mlu=1)
+[[Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:[your-email@gmail.com])
 
 ---
 
-## 📋 Features
-- ✅ 387 Commands
-- 🎵 Music download (.play)
-- 💰 Full economy system
-- 🤖 AI chatbot
-- 👥 Group management
-- 🎮 Games & fun
-- 🌍 Info & tools
+### 🛠️ Tech Stack
+[JavaScript](https://img.shields.io/badge-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+[Node.js](https://img.shields.io/badge-Node.js-339933?style=flat&logo=node.js&logoColor=white)
+[Express.js](https://img.shields.io/badge-Express-000000?style=flat&logo=express&logoColor=white)
+[Vercel](https://img.shields.io/badge-Vercel-000000?style=flat&logo=vercel&logoColor=white)
+[Baileys](https://img.shields.io/badge-Baileys-25D366?style=flat&logo=whatsapp&logoColor=white)
+[Railway](https://img.shields.io/badge-Railway-0B0D0E?style=flat&logo=railway&logoColor=white)
 
 ---
 
-## 🚀 Deploy on Vercel
-
-### Step 1 — Upload to GitHub
-1. Go to [github.com](https://github.com) → **New repository**
-2. Name it `malvin-c-leo`
-3. Click **uploading an existing file**
-4. Upload all files from this zip (keep folder structure)
-5. Click **Commit changes**
-
-### Step 2 — Deploy to Vercel
-1. Go to [vercel.com](https://vercel.com) → Sign in with GitHub
-2. Click **New Project**
-3. Import your `malvin-c-leo` repo
-4. Click **Deploy** (no settings needed)
-5. Wait ~1 minute — Vercel gives you a URL like `malvin-c-leo.vercel.app`
+### 💼 Experience
+**Handsome Tech 🇿🇼** | *Lead Bot Developer* | 2024 - Present
+- Developed **Malvin C Leo**, a WhatsApp Multi-Device bot with 387 commands
+- Built pairing system with `index.html` deployed on Vercel for `263xxxxxxxxx` onboarding
+- Engineered `.play`, `.ai`, `.sticker`, chatbot commands using Node.js + Baileys MD
+- Manage active user community via WhatsApp group: [Join Here](https://chat.whatsapp.com/D53glwu3eWFDqRpEW4vnuu?s=cl&p=a&mlu=1)
+- Deployed bot logic on Railway for 24/7 uptime and session persistence
 
 ---
 
-## 📱 How to Pair Your Bot
-
-### Method 1 — Pairing Code (Recommended)
-1. Open your Vercel URL in a browser (e.g. `https://malvin-c-leo.vercel.app`)
-2. Click the **🔑 PAIR CODE** tab
-3. Type your WhatsApp number with country code — e.g. `263776676755`
-4. Click **GET PAIRING CODE**
-5. Open WhatsApp on your phone
-6. Go to **⋮ Menu → Linked Devices → Link a Device**
-7. Tap **Link with phone number instead**
-8. Enter the 8-digit code shown on the website
-9. ✅ Done! Bot is now connected
-
-### Method 2 — QR Code
-1. Open your Vercel URL
-2. Click the **📷 QR CODE** tab
-3. A QR code will appear
-4. Open WhatsApp → **Linked Devices → Link a Device**
-5. Scan the QR with your camera
-6. ✅ Done!
+### 🚀 Projects
+**Malvin C Leo Bot** | [GitHub](https://github.com/malvin2010) | [Group](https://chat.whatsapp.com/D53glwu3eWFDqRpEW4vnuu?s=cl&p=a&mlu=1)
+- WhatsApp MD bot with multi-device pairing + web-based code system
+- Features: 387 commands, AI chatbot, media downloaders, group automation
+- Tech: Node.js, Baileys, Express, Vercel, Railway
+- Powered by Handsome Tech 🇿🇼 | Prefix: `.`
 
 ---
 
-## 💬 Bot Commands (Prefix: `.`)
-
-| Category | Commands |
-|----------|---------|
-| 🎵 Music | `.play`, `.song` |
-| 🤖 AI | `.ai`, `.chat`, `.ask` |
-| 💰 Economy | `.balance`, `.daily`, `.work`, `.rob`, `.deposit`, `.withdraw`, `.give`, `.shop`, `.buy`, `.leaderboard` |
-| 🎮 Fun | `.joke`, `.fact`, `.quote`, `.8ball`, `.flip`, `.roll`, `.rps`, `.dare`, `.truth`, `.slots`, `.trivia` |
-| 🌍 Info | `.weather`, `.calc`, `.define`, `.crypto`, `.translate` |
-| 🔧 Utility | `.menu`, `.ping`, `.uptime`, `.info`, `.alive`, `.stats` |
-| 📝 Text | `.reverse`, `.upper`, `.lower`, `.mock`, `.count` |
-| 👥 Group | `.kick`, `.add`, `.promote`, `.demote`, `.tagall`, `.mute`, `.unmute` |
-
-Type `.menu` in WhatsApp to see all 387 commands!
+### 🎓 Education
+**[Your School]** | *[Your Degree/Certificate]* | [Year]
 
 ---
 
-## ⚙️ Local Setup (Optional)
-
-```bash
-# Install dependencies
-npm install
-
-# Start bot
-npm start
-```
-
-Then open `http://localhost:3000` to pair.
-
----
-
-## 📁 File Structure
-
-```
-malvin-c-leo/
-├── index.js          ← Main bot + Express server
-├── package.json      ← Dependencies
-├── vercel.json       ← Vercel config
-├── README.md         ← This file
-├── public/
-│   ├── index.html    ← Pairing website
-│   └── menu.png      ← Menu image
-├── commands/
-│   ├── index.js      ← Command loader
-│   ├── play.js       ← Music commands
-│   ├── economy.js    ← Economy system
-│   ├── chatbot.js    ← AI chatbot
-│   └── general.js    ← 300+ general commands
-└── data/
-    └── economy.json  ← Economy database (auto-created)
-```
-
----
-
-## ⚠️ Important Notes
-
-- **Session**: On Vercel (serverless), sessions reset on redeploy. For persistent sessions use Railway or Render
-- **Music**: `.play` requires `yt-search` and `@distube/ytdl-core` — works locally and on Railway
-- **Economy data**: Stored in `data/economy.json` — resets on Vercel redeploy (use a database for production)
-
----
-
-## 👨‍💻 Credits
-
-**Developer:** Handsome Tech Zimbabwe 🇿🇼  
-**Framework:** [@whiskeysockets/baileys](https://github.com/WhiskeySockets/Baileys)  
-**Bot:** Malvin C Leo  
-
----
-
-*Made with ❤️ by Handsome Tech Zimbabwe 🇿🇼*
+### 📫 Contact
+Open to freelance bot development and automation projects.
+DM via WhatsApp Group for bot support and updates.
